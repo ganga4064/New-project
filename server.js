@@ -14,6 +14,7 @@ const server = http.createServer((req, res) => {
 });
 
 // Start the server and listen on the specified port
+// This is a single-line comment
 server.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}/`);
 });
